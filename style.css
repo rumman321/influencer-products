@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     width: 80%;
     margin: 0 auto;
@@ -75,3 +78,47 @@ header{
    width: 400px;
    height: 400px;
 }
+
+/* main part styles */
+
+main{
+    width: 85%;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.company-logo{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);   
+    justify-content: space-between;
+    height: 110px; 
+    align-items: center;
+
+}
+
+/* products card style  */
+
+.products-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    
+    
+
+}
+.card{
+    width: 329px;
+    height: 476px;
+    border: 1px solid skyblue;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100%;
+}
+

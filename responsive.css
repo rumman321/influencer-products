@@ -23,5 +23,19 @@
         width: 100%;
         
     }
+    main{
+        width: 100%;
+    }
+    .company-logo{
+        
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    .products-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        margin: 0 auto;
+    }
     
 }
