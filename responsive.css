@@ -1,0 +1,10 @@
+@media screen and (max-width:576px) {
+  
+    .navber{
+        flex-direction: column;
+    }
+    .nav-btn{
+        flex-direction: column;
+    }
+    
+}

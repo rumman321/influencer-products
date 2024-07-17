@@ -1,0 +1,31 @@
+
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn button{
+    background: none;
+    
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
